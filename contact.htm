@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Suhail</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/all.css"/>
+</head>
+<body>
+    <nav>
+        <a href="#" class="logo">
+            Suhail Imran
+        </a>
+        <ul class="menu">
+            <li><a href="index.htm">Home</a></li>
+            <li><a href="about.htm">About</a></li>
+            <li><a href="services.htm">Services</a></li>
+            <li><a href="resume.htm">Resume</a></li>
+            <li><a class="active"href="contact.htm">Contact</a></li>
+        </ul>
+    </nav>
+    <header class="main" style="background-image: linear-gradient(to bottom right, rgb(39, 39, 38), rgb(247, 70, 70));" >
+            <!--main-content-->
+            <div class="home-content" >
+                <!--text-->
+                <div class="home-text">
+                    <h1>SUHAIL IMRAN <span style="color: red;">CONTACT</span></h1>
+                    <p style="color: #fff;">The following are my contact details. </p>
+                </div>
+            </div>
+    </header>
+    <section class="about" style="text-align: center;display: flex;align-items: center;justify-content: center;">
+        <div class="about-img">
+            <a href="#"><img  src="./images/resume.png"></a>
+        </div>
+        <div class="about-text">
+            <h2 style="font-style: italic;">My E-Mail</h2>
+            <p>example123@gmail.com </p>
+            <h2 style="font-style: italic;">My Phone Number</h2>
+            <p >1234576892</p>
+            <h2 style="font-style: italic;">My Address</h2>
+            <p>Hogwarts</p>
+        </div>
+    </section>
+    <section id="contact" >
+        <div class="contact-heading">
+            <h1>Contact Me</h1>
+            <p>Please fill the following details we will reach out to you soon.</p>
+            <p id="submitted"></p>
+        </div>
+        <form>
+            <input type="text" name="client_name" placeholder="Type Your Name"/>
+            <input type="email" name="client_email" placeholder="Type Your E-Mail"/>
+            <textarea name="client_message" placeholder="Type Your Message Here...."></textarea>
+            
+        </form>
+        <button onclick="myFunction()" >Submit</button>
+    </section>
+    <footer>
+        <p>COPYRIGHT - </p><a href="index.htm"> SUHAIL IMRAN</a>
+        <ul>
+            <li><a href="https://www.youtube.com"><i class="fab fa-youtube"></a></i></li>
+            <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></a></i></li>
+            <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></a></i></li>
+        </ul>
+     </footer>
+    <script>
+        function myFunction() {
+          document.getElementById("submitted").innerHTML = "Will Contact You Soon";
+        }
+        </script>
+    <script src="js/all.js"></script>
+</body>
+</html>
